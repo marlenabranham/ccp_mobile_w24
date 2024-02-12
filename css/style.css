@@ -1,0 +1,55 @@
+.active {
+    color: red;
+}
+.skip-to-main-content-link {
+    position: static;
+    color: black;
+    padding: 10px;
+}
+header {
+    background-color: peachpuff;
+    padding: 20px;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+footer {
+    background-color: peachpuff;
+    padding: 20px;
+    text-align: center;
+}
+main div {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: dashed 2px black;
+    width: 90%;
+    grid-gap: 20px;
+    align-items: stretch;
+    align-content: center;
+    justify-content: end;
+    justify-items: stretch;
+}
+main div img {
+    max-width: 100%;
+    height: auto;
+}
+body{
+margin:5px;
+padding:5px;
+line-height:1.15;
+}
+h1,h2, h3{
+    font-weight: bold;
+    margin:15px 0px;
+}
+h2{
+font-size: x-large;
+}
+p{
+background-color: peachpuff;
+padding: 20px;
+border: solid 2px black;
+}
